@@ -30,15 +30,15 @@ const startBtn = {
 
 // LOAD SOUNDS
 const SCORE_S = new Audio();
-SCORE_S.src = 'audio/sfx_point.wav';
+SCORE_S.src = 'sfx_point.wav';
 const FLAP_S = new Audio();
-FLAP_S.src = 'audio/sfx_flap.wav';
+FLAP_S.src = 'sfx_flap.wav';
 const HIT_S = new Audio();
-HIT_S.src = 'audio/sfx_hit.wav';
+HIT_S.src = 'sfx_hit.wav';
 const SWOOSHING_S = new Audio();
-SWOOSHING_S.src = 'audio/sfx_swooshing.wav';
+SWOOSHING_S.src = 'sfx_swooshing.wav';
 const DIE_S = new Audio();
-DIE_S.src = 'audio/sfx_die.wav';
+DIE_S.src = 'sfx_die.wav';
 
 // CONTROLLER
 cvs.addEventListener('click', function(evt) {
